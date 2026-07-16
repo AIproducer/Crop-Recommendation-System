@@ -11,10 +11,8 @@ MODEL_PATH = os.path.join(
     os.path.dirname(__file__),
     "..",
     "models",
-    "crop_model.pkl"
+    "best_random_forest.pkl"
 )
-
-model = joblib.load("models/crop_model.pkl")
 
 
 
