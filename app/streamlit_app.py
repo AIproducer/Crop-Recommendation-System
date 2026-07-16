@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Add the project root to Python path
+sys.path.append(
+    os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..")
+    )
+)
 import streamlit as st
 from src.predict import predict_crop
 from src.utils import crop_info
